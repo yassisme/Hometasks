@@ -1,0 +1,2 @@
+D:/Google Drive/йспяш/GO IT/1/1DZ
+1. git init
