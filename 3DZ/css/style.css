@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic,latin-ext,cyrillic-ext);
+
+html{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f9f9f9;
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 0;
+}
+.page{
+	width:1060px;
+	min-height: 950px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.7);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.7);
+}
+.content{
+	width: 964px;
+	margin: 0 auto;
+	padding: 50px 0 60px;
+	position: relative;
+}
+h1{
+	margin: 0;
+	font-size: 38px;
+}
+nav{
+	margin: 40px 0;
+	font-size: 13px;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-image: url(../img/gradient.png);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+nav ul li{
+	line-height: 40px;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	height: 40px;
+	padding: 0 30px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:hover{
+	background-image: url(../img/gradient_hover.png);
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+}
+.sidebar{
+	float: left;
+	width: 240px;
+	font-size: 11px;
+}
+.sidebar ul{
+	padding: 0;
+	margin: 0;
+	border:1px solid #c8c8c8;
+}
+
+.sidebar li{
+	width: 100%;
+	line-height: 38px;
+	list-style-type: none;
+	border-bottom:1px solid #c8c8c8;
+}
+.sidebar li:last-child{
+	border-bottom:none;
+}
+.sidebar a{
+	display: block;
+	height: 38px;
+	padding-left: 23px;
+	text-decoration: none;
+	color: #7a7878;
+}
+.sidebar a:hover{
+	text-decoration: none;
+	color: #2c2c2c;
+	padding-left: 35px;
+	background-color: #f9f9f9;
+}
+.right-bar{
+	width: 675px;
+	float: right;
+	font-size: 13px; 
+	padding-bottom: 20px;
+}
+.img-box{
+	width: 100%;
+	padding: 41px 0;
+	border:1px solid #c8c8c8;
+	text-align: center;
+}
+.right-bar p{
+	margin: 0;
+	padding: 40px 25px;
+}
+footer{
+	width: 100%;
+	clear: both;
+	position: relative;
+	display: inline-block;
+	background-color: #e1e1e1;
+	line-height: 40px;
+	font-size: 13px;
+}
+footer ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+footer ul li{
+	display: inline;
+	padding: 0 70px 0 25px;
+}
+footer a{
+	text-decoration: none;
+	color: #2c2c2c;
+}
+footer a:hover{
+	text-decoration: underline;
+	color: #2c2c2c;
+}
+span{
+	float:right;
+	margin-right: 24px;
+}
