@@ -132,9 +132,13 @@ nav ul li a:hover{
 	padding: 40px 25px;
 }
 
+.right-bar:after{
+	content: '';
+	clear: both;
+}
+
 footer{
 	width: 100%;
-	clear: both;
 	position: relative;
 	display: inline-block;
 	background-color: #e1e1e1;
