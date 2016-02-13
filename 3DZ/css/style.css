@@ -21,9 +21,9 @@ body{
 	min-height: 950px;
 	margin: 0 auto;
 	background-color: #ffffff;
-	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.7);
-	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.7);
-	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
 }
 
 .content{
@@ -32,6 +32,8 @@ body{
 	padding: 50px 0 60px;
 	position: relative;
 }
+
+/*LOGO*/
 
 h1{
 	margin: 0;
@@ -48,6 +50,8 @@ nav{
 	font-size: 13px;
 }
 
+/*TOP MENU*/
+
 nav ul{
 	padding: 0;
 	margin: 0;
@@ -57,16 +61,21 @@ nav ul{
 }
 
 nav ul li{
+	padding: 0 35px 0 0;
 	line-height: 40px;
 	display: inline-block;
+	box-sizing: border-box;
 }
 
 nav ul li a{
 	display: block;
 	height: 40px;
-	padding: 0 30px;
+	padding: 0 25px;
 	text-decoration: none;
 	color: white;
+	border-left:1px solid transparent;
+	border-right:1px solid transparent;
+;
 }
 
 nav ul li a:hover{
@@ -74,6 +83,8 @@ nav ul li a:hover{
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
 }
+
+/*LEFT SIDEBAR*/
 
 .sidebar{
 	float: left;
@@ -113,6 +124,8 @@ nav ul li a:hover{
 	background-color: #f9f9f9;
 }
 
+/*RIGHT CONTENT BAR*/
+
 .right-bar{
 	width: 675px;
 	float: right;
@@ -136,6 +149,8 @@ nav ul li a:hover{
 	content: '';
 	clear: both;
 }
+
+/*BOTTOM MENU*/
 
 footer{
 	width: 100%;
