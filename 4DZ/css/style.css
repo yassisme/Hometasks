@@ -14,6 +14,7 @@ html{
 /*HEADER*/
 header{
 	position: relative;
+	overflow: hidden;
 	color: #5fa5bb;
 }
 header a{
@@ -63,21 +64,20 @@ header a{
 	display: block;
 	height: 30px;
 	background: #323232;
-	border-bottom: 1px solid black;
 	z-index: 0;
-	margin-bottom: 5px; /*НЕ СМОГ РЕШИТЬ ПРОБЛЕМУ С ТЕНЬЮ! Z-INDEX НЕ ПОМАГАЕТ!*/
 }
 #nav{
+	position: relative; /*Решение проблемы с тенью! Блокам которые склеиваются должны быть заданы свойства Позишн:Релатив и соответствующие им Z индексы*/
 	display: block;
 	float:left;
 	width:100%;
 	list-style:none;
-/*	margin-bottom:10px;*/
 	font-size: 14px;
 	background:#323232;
 	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);	
+	border-bottom: 1px solid black;
 	z-index: 2;
 }
 #nav li{
@@ -101,6 +101,7 @@ header a{
 	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	border-top: 1px solid black;
 }
 #nav ul a{
 	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
@@ -108,6 +109,7 @@ header a{
 }
 #nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
 	left:0; /* Приносим его обратно на экран, когда нужно */
+	top: 30px; /*Одно из решений проблемы с линией*/
 	z-index: 1;
 	background:#323232;
 }
@@ -117,8 +119,10 @@ header a{
 /*CONTENT*/
 .content{
 	position: relative;
+	overflow: hidden;
 	color: #424c43;
-	height: 480px; 
+	/*height: 480px; */
+	z-index: 0;
 }
 .content h2{
 	padding: 5px 0;
@@ -134,17 +138,21 @@ header a{
 .content_left{
 	float: left;
 	width: 210px;
-	height: 100%;
 	background: #edeef0;
 	border-right: 1px solid #c7cacf;
+	padding-top: 5px;
+	padding-bottom: 20000px;
+	margin-bottom: -19980px;
 }
 .content_right{
 	float: right;
 	width: 210px;
-	height: 100%;
+	padding-top: 5px;
 	/*Выяснить как правильно сделать высоту по родительскому блоку*/
 	background: #edeef0;
 	border-left: 1px solid #c7cacf;
+	padding-bottom: 20000px;
+	margin-bottom: -19980px;
 }
 .content_center{
 	background: white;
