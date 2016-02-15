@@ -1,0 +1,161 @@
+html{
+	font-family: Tahoma, sans-serif;
+	background-image: url(../img/background.png);
+}
+.page{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 10px;
+	background-color: white;
+	-webkit-box-shadow: 0px 6px 21px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 21px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 21px 2px rgba(0,0,0,0.75);
+}
+/*HEADER*/
+header{
+	position: relative;
+	color: #5fa5bb;
+}
+header a{
+	color: #5fa5bb;
+}
+.logo{
+	float: left;
+	padding-left: 30px;
+}
+.t_right{
+	float: right;
+	position: relative;
+	padding:0 15px 0 0;
+}
+.contacts_top{
+	display: block;
+	font-size: 12px;
+	padding-left: 240px;
+	margin-bottom: 30px;
+}
+.contacts_top li{
+	padding-bottom: 7px;
+}
+.contries{
+	font-size: 10px;
+}
+.contries ul li{
+	padding:0 5px 0 10px;
+	display: inline-block;
+	text-align: center;
+}
+/*header:after{
+	content: '';
+	clear: both;
+}*/
+/*CLEAR:BOTH НЕ РАБОТАЕТ ТАК КАК НУЖНО, ПО НЕПОНЯТНЫМ МНЕ ПРИЧИНАМ, ПОЭТОМУ БУДУ УЗНАВАТЬ У ВАС :) СДЕЛАЛ ПОКА ПРИМИТИВНО ОЧИЩЕНИЕ ГРАНИЦ В HTML*/
+/*BANNER*/
+.banner{
+	height: 235px;
+	width: 100%;
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+	background: url(../img/banner.png);
+}
+/*MENU*/
+.menu{
+	display: block;
+	height: 30px;
+	background: #323232;
+	border-bottom: 1px solid black;
+	z-index: 0;
+	margin-bottom: 5px; /*НЕ СМОГ РЕШИТЬ ПРОБЛЕМУ С ТЕНЬЮ! Z-INDEX НЕ ПОМАГАЕТ!*/
+}
+#nav{
+	display: block;
+	float:left;
+	width:100%;
+	list-style:none;
+/*	margin-bottom:10px;*/
+	font-size: 14px;
+	background:#323232;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);	
+	z-index: 2;
+}
+#nav li{
+	float:left;
+	padding: 3px 45px 3px 15px;
+	position:relative;
+	display:block;
+	background:#323232;
+}
+#nav li a{
+	display:block;
+	padding:5px;
+	color:#fff;
+	text-decoration:none;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75);
+}
+#nav ul{
+	list-style:none;
+	position:absolute;
+	left:-9999px;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+#nav ul a{
+	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+	display:block;
+}
+#nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+	left:0; /* Приносим его обратно на экран, когда нужно */
+	z-index: 1;
+	background:#323232;
+}
+#nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+	text-decoration:underline;
+}
+/*CONTENT*/
+.content{
+	position: relative;
+	color: #424c43;
+	height: 480px; 
+}
+.content h2{
+	padding: 5px 0;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.content p{
+	font-size: 14px;
+	line-height: 24px;
+	padding: 0 15px;
+}
+.content_left{
+	float: left;
+	width: 210px;
+	height: 100%;
+	background: #edeef0;
+	border-right: 1px solid #c7cacf;
+}
+.content_right{
+	float: right;
+	width: 210px;
+	height: 100%;
+	/*Выяснить как правильно сделать высоту по родительскому блоку*/
+	background: #edeef0;
+	border-left: 1px solid #c7cacf;
+}
+.content_center{
+	background: white;
+	width: 580px;
+	margin: 0 auto;
+}
+/*COPYRIGHT*/
+span{
+	margin: 10px;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
