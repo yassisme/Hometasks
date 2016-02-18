@@ -1,0 +1,40 @@
+table{
+	position: absolute;
+	border: none;
+	left: 50%;
+	top:50%;
+	margin: -242px 0 0 -222px;
+}
+td{
+	border: 8px solid black;
+}
+#row1{
+	height: 41px;
+}
+#row2{
+	height: 126px;
+}
+#row3{
+	height: 128px;
+}
+#row4,#row5{
+	height: 59px;
+}
+#row6,#row7{
+	height: 31px;
+}
+.yellow{
+	background:yellow;
+	opacity: 0.7;
+}
+.black{
+	background: black;
+	opacity: 0.9;
+}
+.tomato{
+	background: tomato;
+}
+.blue{
+	background: blue;
+	opacity: 0.7;
+}

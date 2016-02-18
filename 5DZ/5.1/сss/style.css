@@ -1,0 +1,220 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeueCyr-Light.otf );
+}
+html{
+	font-family: HelveticaNeue, sans-serif;
+	height: 100%;
+
+}
+body{
+	height: 100%;
+	width: 100%;
+	background: url(../img/background-full.png);
+	background-size:cover;
+}
+/*HEADER*/
+header{
+	line-height: 36px;
+	background: url(../img/header.png);
+	height: 36px;
+	overflow: hidden;
+	font-size: 14px;
+}
+.header_links{
+	float: right;
+}
+.header_links li{
+	display: inline;
+}
+.header_links li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #60b5ed;
+	height: 36px;
+	padding: 0 13px;
+}
+.header_links li a:hover{
+	background: #4eabda;
+	color: #fff;
+}
+.flag{
+	margin: 2px 0 3px;
+	display: block;
+	line-height: 31px;
+	float: right;
+	color: #fff;
+	border-left: 1px solid #56a2dc;
+	padding: 0 18px;
+}
+.flag img{
+	vertical-align: middle;
+}
+.flag a{
+	text-decoration: none;
+	color: #fff;
+}
+.logreg{
+	float: right;
+	color: #fff;
+	padding: 0 12px;
+	margin-right: 20px;
+	background-image: url(../img/logreg_gradient.png);
+	background-size:cover;
+}
+.logreg a{
+	color: #fff;
+}
+
+/*PAGE*/
+
+.page{
+	width: 100%;
+	height: 100%;
+}
+
+/*FORM*/
+
+.forma{
+	width: 600px;
+	height: 640px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-320px 0 0 -300px;
+	/*padding-bottom: 200px;*/
+}
+h1{
+	display: block;
+	text-align: center;
+	line-height: 62px;
+	font-size: 24px;
+	color: #fff;
+	width: 600px;
+	/*margin-top: 220px;*/
+	/*margin: 0 auto;*/
+	background: rgba(0,0,0,0.5);
+}
+.content{
+	display: block;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	margin-top: 2px;
+	padding-bottom: 22px;
+}
+form{
+	width: 275px;
+	margin: 0 auto;
+	padding: 36px 0 0;
+}
+
+/*FACEBOOK BUTTON*/
+
+#facebook{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	height: 35px;
+	width: 275px;
+	line-height: 35px;
+	font-size: 14px;
+	background: #3b579d;
+	border-radius: 4px;
+	border:none;
+	border-left: 1px solid #7789b7;
+	border-top: 1px solid #7789b7;
+}
+.fb{
+	padding: 0;
+	float: left;
+	height: 100%;
+	background: #3b579d;
+	border-right: 1px solid #203c6e;
+	border-top: #758ab9;
+}
+.fb_text{
+	padding-left: 50px;
+	float: left;
+	color: white;
+}
+.arrow{
+	padding-top: 7px;
+	height: 21px;
+	width: 21px;
+}
+#facebook b{
+	font-weight: bolder;
+}
+
+
+.lala{
+	position: relative;
+	overflow: hidden;
+	margin: 32px 0 30px;
+}
+.empty_box1{
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid black;
+	width: 123px;
+	float: left;
+	margin-top: 5px;
+}
+.ou{
+	font-size: 14px;
+	width: 30px;
+	float: left;
+	color: #838482;
+}
+.empty_box2{
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid black;
+	width: 122px;
+	float: left;
+	margin-top: 5px;
+}
+.input_box{
+	display: inline-block;
+	line-height: 35px;
+	margin-bottom:19px; 
+	width: 255px;
+	padding-left: 18px;
+	background: url(../img/input-gradient.png);
+	background-size: contain;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	border-bottom: 1px solid #484948;
+}
+.input_box:focus{
+	background: #1b5288;
+	box-shadow: 0 0 6px rgba(0,0,0,0.3) inset; 
+	box-shadow: 0px 0px 10px 5px rgba(104,155,204,1);
+	outline: none;
+}
+.content p{
+	color: #b7b6b4;
+}
+
+/*BUTTON*/
+
+button{
+	margin: 25px 0 22px;
+	width: 150px;
+	line-height: 32px;
+	color: #fff;
+	border: 1px solid #59a3de;
+	border-radius: 2px;
+	background: #51b0db;
+	font-size: 14px;
+	background-image: url(../img/button.png);
+}
+button:active{
+	box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,0.6);
+}
+.privacy{
+	text-align: center;
+	color: #b7b6b4;
+	font-size: 11px;
+}
