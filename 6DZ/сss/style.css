@@ -455,7 +455,8 @@ nav{
 .d_text{
 	padding: 14px 0 0 15px;
 	float: left;
-	width: 85px;
+	width: 90px;
+	letter-spacing: 0.23ex;
 }
 .findDisc h4{
 	padding-left: 9px;
@@ -495,12 +496,12 @@ nav{
 	float: right;
 }
 .disc_r_column select{
-	margin: 4px 0 8px 2px;
+	margin: 4px 0 5px 2px;
 	width: 58px;
 	height: 17px;
 }
 .findDisc .search{
-	margin: 0px 19px 0 0;
+	margin: 2px 19px 0 0;
     float: right;
     font-family: Arial;
     font-style: italic;
@@ -728,7 +729,6 @@ nav{
    	margin: 0 11px 0 0px;
     vertical-align: bottom;
     position: relative;
-    *overflow: hidden;
 }
 .vitrina_right label{
 	display: block;
