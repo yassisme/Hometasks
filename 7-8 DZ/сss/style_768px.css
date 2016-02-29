@@ -1,0 +1,148 @@
+.invisible{
+		visibility: hidden;
+		display: none;
+	}
+	.wrapper{
+		width: 728px;
+	}
+	.menu{
+		float: left;
+		padding-top: 31px;
+	}    
+	.menu a{
+		margin: 0 48px 0 0;
+	}
+	.banner__inner{
+		margin-top: 77px;
+	}
+	.banner img{
+		top: -23px;
+    	left: 427px;
+	}
+	.content{
+		height: 387px;
+	}
+	.content_text {
+	    padding-top: 98px;
+	    padding-left: 24px;
+	    width: 330px;
+	}
+	.content_text h1 {
+	    font-size: 48px;
+	    margin-bottom: 8px;
+	}
+	.content_text h3 {
+	    font-size: 24px;
+	    margin-bottom: 9px;
+	}
+	.content_text p {
+	    font-size: 16px;
+	}
+	.arrow__left {
+	    left: -451px;
+	    top: 202px;
+	}
+	.arrow__right {
+	    left: 296px;
+    	top: 202px;
+	}
+	.slider_circles {
+	    bottom: -78px;
+	    right: 122px;
+	}
+	.background__articles {
+    	margin-top: -72px;
+    }
+    .articles__item{
+    	width: 160px;
+	    margin-right: 25px;
+    }
+    .articles__item:nth-child(2) {
+    	margin-right: 25px;
+	}
+    .articles__item h2 {
+	    margin-bottom: 5px;
+	    font-size: 24px;
+	}
+	.icon__1 {
+	    top: 78px;
+	    left: 10px;
+	}
+	.articles__item a {
+	    bottom: 3px;
+	    right: 13px;
+	}
+	.starts_back{
+		float: left;
+	    position: relative;
+	    height: 272px;
+	    width: 313px;
+	    margin-left: 22px;
+	    background: #fff;
+	    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	}
+	.starts_content {
+    	padding: 29px 10px 0 40px;
+	}
+	.starts_content h2 {
+	    display: block;
+	    width: 100px;
+	    font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.starts_circles {
+	    bottom: -45px;
+	    right: 110px;
+	}
+	.updates {
+    	width: 333px;
+	}
+	.update1{
+		margin-bottom: 18px;
+	}
+	.update2 {
+	    background: url(../img/linza_2.png) top left no-repeat;
+	    margin-bottom: 15px;
+	}
+	.updates a {
+	    bottom: 32px;
+	    right: 6px;
+	}
+	.logos{
+		background: url(../img/logos_768.png) no-repeat 3px 24px;
+	}
+	.content__bottom{
+		padding-top: 103px;
+		height: 293px;
+	}
+	.pigbull h2, .copyright{
+		display: none;
+	}
+	.visible{
+		display: block;
+	}
+	.content__bottom_item .pigbull{
+		margin-top: 0px;
+	}
+	.content__bottom_item{
+		margin-top: -2px;
+		width: 220px;
+		margin-right: 47px;
+	}
+	.content__bottom_item h3{
+		font-size: 24px;
+	}
+	.content__bottom_item:nth-child(2) {
+    	margin-right: 20px;
+	}
+	.footer__background {
+	    height: 201px;
+	    background: url(../img/footer_background_768.png);
+	}
+	.footer {
+    	padding-top: 23px;
+	}
+	.design {
+	    padding-top: 80px;
+	    letter-spacing: 0.2px;
+	}

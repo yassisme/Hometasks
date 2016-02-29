@@ -1,0 +1,125 @@
+	.content__bottom_background, .iphone, .content_text p , .menu li, .invisible_320, .footer_menu{
+		display: none;
+	}
+	.wrapper{
+		width: 280px;
+	}
+	.logo {
+	    margin-left: 65px;
+	}
+	.menu{
+		padding-top: 33px;
+	}
+	.menu li:first-child{
+		display: block;
+	}
+	.menu a{
+		margin-right: 120px;
+	}
+	.banner__inner {
+	    height: 400px;
+	    width: 100%;
+	    background: none;
+	    margin-top: 0px;
+	}
+	.content_text {
+	    padding-top: 127px;
+    	padding-left: 46px;
+    	width: 225px;
+	}
+	.content_text h1 {
+    	font-size: 36px;
+    	margin-bottom: 3px;
+	}
+	.content_text h3 {
+    	font-size: 18px;
+	}
+	.arrow__left {
+	    left: -639px;
+	    top: 154px;
+	}
+	.arrow__right {
+	    left: -342px;
+    	top: 154px;
+	}
+	.slider_circles {
+    	bottom: -98px;
+    	right: 92px;
+	}
+	.background__articles {
+    	margin-top: -354px;
+    	height: 596px;
+    	background-size: cover;
+    }
+    .articles{
+    	padding-top: 70px;
+    }
+    .articles__item {
+    	padding-top: 0;
+    	margin-bottom: 17px;
+    	width: 222px;
+    	height: 137px;
+    }
+    .articles__item h2 {
+	    margin-bottom: 4px;
+	    font-size: 24px;
+	}
+	.sprite {
+    	top: 0px;
+    	left: 11px;
+	}
+	.icon__1:hover,.icon__2:hover,.icon__3:hover{
+		top: 0px;
+	}
+	.articles__item:last-child{
+		margin-top: 16px;
+	}
+	.content {
+		width: 285px;
+	    height: 716px;
+	    padding-top: 71px;
+	}
+	.starts_back{
+		width: 258px;
+		margin-left: 25px;
+	}
+	.starts_content {
+    	padding: 25px 25px 0 39px;
+	}
+	.starts_content h2 {
+	    font-size: 24px;
+	    width: 90px;
+	    margin-bottom: 5px;
+	}
+	.starts_content p {
+    	margin-left: 3px;
+    }
+    .starts_circles {
+    	right: 71px;
+	}
+	.updates {
+	    margin-top: 41px;
+	    margin-right: -3px;
+	    float: right;
+	    width: 285px;
+	    height: 300px;
+	    position: relative;
+	}
+	.updates__item{
+		margin-bottom: 14px;
+	}
+	.update2{
+		margin-bottom: 20px;
+	}
+	.logos {
+    	height: 421px;
+        background: url(../img/logos_320.png) no-repeat 23px 51px;
+    }
+    .footer__background {
+	    height: 200px;
+	    background: url(../img/footer_background_768.png);
+	}
+	.design {
+	    padding-top: 17px;
+	    padding-right: 69px;
+	}
